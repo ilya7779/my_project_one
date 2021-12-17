@@ -185,14 +185,18 @@ body {
     line-height: 123%;
 }
 .about-me__subtitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 485px;
-    height: 218px;
+
+}
+@media (max-width: 480px) {
+    .about-me__subtitle br{
+        display: none;
+    }
 }
 .about-me__subtitle p {
     text-align: center;
+}
+.about-me__subtitle__desсription:not(:last-child) {
+    margin-bottom: 45px;
 }
 .subtitle {
     line-height: 121%;
