@@ -124,6 +124,7 @@ body {
 }
 .author-description__age {
     width: 165px;
+    font-weight: 500;
     line-height: 121%;
 }
 @media (max-width: 480px) {
@@ -135,6 +136,7 @@ body {
     display: flex;
     margin: 0 -20px 16px 0;
     font-size: 16px;
+    font-weight: bold;
     line-height: 123%;
     transform: rotate(-90deg);
 }
@@ -164,4 +166,34 @@ body {
         display: block;
     }
 }
-
+.page__about-me {
+    background-color: #F6F6F6;
+}
+.about-me__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+.about-me__title {
+    margin-bottom: 18px;
+}
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 123%;
+}
+.about-me__subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 485px;
+    height: 218px;
+}
+.about-me__subtitle p {
+    text-align: center;
+}
+.subtitle {
+    line-height: 121%;
+}
