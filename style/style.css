@@ -134,11 +134,11 @@ body {
 }
 .author-description__language {
     display: flex;
-    margin: 0 -20px 16px 0;
     font-size: 16px;
     font-weight: bold;
     line-height: 123%;
-    transform: rotate(-90deg);
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
 }
 @media (max-width: 480px) {
     .author-description__language {
